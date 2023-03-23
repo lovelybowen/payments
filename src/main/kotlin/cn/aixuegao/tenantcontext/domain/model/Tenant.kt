@@ -4,6 +4,7 @@ import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
+import org.hibernate.annotations.Table
 
 /**
  * @author Bowen.Huang
@@ -11,6 +12,7 @@ import jakarta.persistence.Id
  */
 @Suppress("JpaObjectClassSignatureInspection")
 @Entity
+@Table(appliesTo = "tenant")
 class Tenant(
     var name: String,
     var secretKey: String,

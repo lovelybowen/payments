@@ -1,4 +1,4 @@
-package cn.aixuegao.tenantcontext.infrastructure.adapters.output.persistence.repository
+package cn.aixuegao.tenantcontext.infrastructure.adapters.output.persistence
 
 import cn.aixuegao.tenantcontext.domain.model.Tenant
 import org.springframework.data.repository.CrudRepository

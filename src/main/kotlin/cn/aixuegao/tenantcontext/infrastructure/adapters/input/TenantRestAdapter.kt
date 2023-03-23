@@ -1,4 +1,4 @@
-package cn.aixuegao.tenantcontext.infrastructure.adapters.input.reset
+package cn.aixuegao.tenantcontext.infrastructure.adapters.input
 
 import cn.aixuegao.tenantcontext.application.ports.input.GetTenantUserCase
 import cn.aixuegao.tenantcontext.domain.model.Tenant

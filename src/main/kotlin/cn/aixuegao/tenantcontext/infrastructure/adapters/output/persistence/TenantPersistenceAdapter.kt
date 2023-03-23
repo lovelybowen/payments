@@ -2,7 +2,6 @@ package cn.aixuegao.tenantcontext.infrastructure.adapters.output.persistence
 
 import cn.aixuegao.tenantcontext.application.ports.output.TenantOutputPort
 import cn.aixuegao.tenantcontext.domain.model.Tenant
-import cn.aixuegao.tenantcontext.infrastructure.adapters.output.persistence.repository.TenantRepository
 
 /**
  * @author Bowen.Huang

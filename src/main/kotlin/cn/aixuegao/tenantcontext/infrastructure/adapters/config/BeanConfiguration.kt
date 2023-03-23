@@ -2,7 +2,7 @@ package cn.aixuegao.tenantcontext.infrastructure.adapters.config
 
 import cn.aixuegao.tenantcontext.domain.service.TenantService
 import cn.aixuegao.tenantcontext.infrastructure.adapters.output.persistence.TenantPersistenceAdapter
-import cn.aixuegao.tenantcontext.infrastructure.adapters.output.persistence.repository.TenantRepository
+import cn.aixuegao.tenantcontext.infrastructure.adapters.output.persistence.TenantRepository
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 
