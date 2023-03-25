@@ -31,7 +31,7 @@ class CheckoutPageAdapter(
         @RequestParam(name = "mode", defaultValue = "PAYMENT") mode: Mode
     ): ModelAndView {
 
-        return ModelAndView("/payment/stripe/checkout", mapOf("mode" to mode.name, "secretKey" to secretKey))
+        return ModelAndView("payment/stripe/checkout", mapOf("mode" to mode.name, "secretKey" to secretKey))
     }
 
     /**
@@ -39,7 +39,7 @@ class CheckoutPageAdapter(
      */
     @GetMapping("/success")
     fun successPage(): String {
-        return "/payment/stripe/success"
+        return "payment/stripe/success"
     }
 
     /**
@@ -47,7 +47,7 @@ class CheckoutPageAdapter(
      */
     @GetMapping("/cancel")
     fun cancelPage(): String {
-        return "/payment/stripe/cancel"
+        return "payment/stripe/cancel"
     }
 
 
