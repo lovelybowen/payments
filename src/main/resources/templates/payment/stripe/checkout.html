@@ -2,19 +2,19 @@
 <html>
 <head>
     <title>Buy cool new product</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
 <section>
     <div class="product">
-        <img src="https://i.imgur.com/EHyR2nP.png" alt="The cover of Stubborn Attachments"/>
+        <img src="https://img.freepik.com/free-vector/vintage-tv_23-2147503075.jpg?w=1800&t=st=1679749433~exp=1679750033~hmac=06fbd51c840544fd1d8ddf50c2745e99a03904e9ef344cdcc4359e211355c0b0" alt="The cover of Stubborn Attachments"/>
         <div class="description">
-            <h3>Stubborn Attachments</h3>
+            <h3>XTV Monthly</h3>
             <h5>$20.00</h5>
         </div>
     </div>
-    <form action="/create-checkout-session" method="POST">
+    <form action="/create-checkout-session?secretKey={{secretKey}}&mode={{mode}}" method="POST">
         <button type="submit" id="checkout-button">Checkout</button>
     </form>
 </section>

@@ -35,6 +35,8 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.testcontainers:junit-jupiter")
+
+    implementation("com.stripe:stripe-java:22.14.0")
 }
 
 dependencyManagement {

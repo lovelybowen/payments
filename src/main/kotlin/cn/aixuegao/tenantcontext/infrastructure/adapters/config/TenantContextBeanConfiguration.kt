@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration
  * @date 2023/3/22 23:34
  */
 @Configuration
-class BeanConfiguration {
+class TenantContextBeanConfiguration {
 
 
     @Bean
